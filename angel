@@ -1,62 +1,40 @@
 <!DOCTYPE html>
-<div class="container">
-<h1>Autos & Coches</h1>
-<nav>
-<ul>
-<li><a href="#inicio">Inicio</a></li>
-<li><a href="#modelos">Modelos</a></li>
-<li><a href="#contacto">Contacto</a></li>
-</ul>
-</nav>
-</div>
-</header>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World of Cars - Inicio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <header>
+    <h1>World of Cars 🚗</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="modelos.html">Modelos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
 
-<main class="container">
-<section id="inicio" class="hero">
-<h2>Todo sobre coches: novedades, modelos y comparativas</h2>
-<p>Explora nuestra selección de coches populares, especificaciones y reseñas.</p>
-</section>
+  <section class="intro">
+    <h2>Bienvenido a World of Cars</h2>
+    <p>Explora el mundo del motor: coches deportivos, eléctricos y clásicos.</p>
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/audi-1868734_1280.jpg" alt="Audi en carretera" class="hero-image">
+  </section>
 
+  <section class="video">
+    <h2>Video destacado</h2>
+    <p>Descubre cómo la innovación está cambiando el futuro de los coches eléctricos.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z_4mu8s1YRY" 
+      title="Innovación en coches eléctricos" 
+      frameborder="0" 
+      allowfullscreen>
+    </iframe>
+  </section>
 
-<section id="modelos" class="grid">
-<!-- Plantilla de tarjeta para cada coche -->
-<article class="card" data-marca="Tesla" data-precio="70000">
-<img src="assets/images/placeholder-car.jpg" alt="Coche ejemplo"/>
-<h3>Tesla Model S</h3>
-<p class="specs">Eléctrico • 4 puertas • Autonomía 600 km</p>
-<p class="price">Precio desde: <strong>70.000€</strong></p>
-<button class="btn-detalles">Ver más</button>
-</article>
-
-
-<article class="card" data-marca="Ford" data-precio="35000">
-<img src="assets/images/placeholder-car.jpg" alt="Coche ejemplo"/>
-<h3>Ford Focus</h3>
-<p class="specs">Gasolina • 5 puertas • 150 CV</p>
-<p class="price">Precio desde: <strong>35.000€</strong></p>
-<button class="btn-detalles">Ver más</button>
-</article>
-
-
-<!-- Añade más tarjetas según necesites -->
-</section>
-
-
-<section id="contacto">
-<h2>Contacto</h2>
-<p>¿Tienes sugerencias o quieres colaborar? Escribe a <a href="mailto:info@autoscoches.example">info@autoscoches.example</a>.</p>
-</section>
-</main>
-
-
-<footer class="site-footer">
-<div class="container">
-<p>© 2025 Autos & Coches — Hecho con ❤️</p>
-</div>
-</footer>
-
-
-<script src="assets/js/main.js"></script>
+  <footer>
+    <p>© 2025 World of Cars — Proyecto educativo</p>
+  </footer>
 </body>
 </html>
